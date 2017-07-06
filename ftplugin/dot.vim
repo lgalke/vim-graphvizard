@@ -6,5 +6,3 @@ if has('autocmd')
     au BufWritePre <buffer> Nop
   augroup END
 endif
-
-setlocal makeprg=dot\ -Tpng\ -o\ %:r.png\ %
